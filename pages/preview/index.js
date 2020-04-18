@@ -3,7 +3,7 @@ import loadTemplate  from '../../lib/templates'
 import dummyProfile from '../../util/sampleResume'
 
 
-const Preview = (props) => { console.log(props.template)
+const Preview = (props) => {
   const [currentTemplate, setCurrentTemplate] = useState(<div>loading</div>)
   useEffect(() => {
     setCurrentTemplate(loadTemplate(props.template, {...props, profile: JSON.parse(JSON.stringify(dummyProfile))}))
