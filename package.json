@@ -1,0 +1,22 @@
+{
+  "name": "resume-generator",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon -w server.js",
+    "build": "next build",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "next": "9.3.5",
+    "node-fetch": "^2.6.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "resume-schema": "^0.0.18"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
