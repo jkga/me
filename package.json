@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nodemon -w server.js",
     "build": "next build",
-    "start": "node server.js"
+    "start": "cross-env PORT=9000 node server.js -p $PORT"
   },
   "dependencies": {
     "cross-env": "^7.0.2",
