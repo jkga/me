@@ -1,22 +1,17 @@
 {
-  "name": "resume-generator",
+  "name": "resume-generator2",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "nodemon -w server.js",
+    "dev": "next dev",
     "build": "next build",
-    "start": "cross-env PORT=9000 node server.js -p $PORT"
+    "start": "next start"
   },
   "dependencies": {
-    "cross-env": "^7.0.2",
-    "express": "^4.17.1",
+    "axios": "^0.19.2",
     "next": "9.3.5",
-    "node-fetch": "^2.6.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "resume-schema": "^0.0.18"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.3"
   }
 }
