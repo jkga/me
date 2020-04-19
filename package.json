@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "standard"
   },
   "dependencies": {
     "axios": "^0.19.2",
@@ -13,5 +14,8 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "resume-schema": "^0.0.18"
+  },
+  "devDependencies": {
+    "standard": "^14.3.3"
   }
 }

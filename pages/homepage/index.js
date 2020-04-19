@@ -1,33 +1,31 @@
 import Head from 'next/head'
 
-export default function Home() {
+export default function Home () {
   return (
-    <div className="container">
+    <div className='container'>
       <Head>
         <title>Resume Generator Service</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <main>
-        <h1 className="title">
-          Welcome to <a href="https://nextjs.org">me.com!</a>
+        <h1 className='title'>
+          Welcome to <a href='https://nextjs.org'>me.com!</a>
         </h1>
 
-        <p className="description">
+        <p className='description'>
           Online resume generator for developers
         </p>
 
-        <div className="grid">
-          <div href="https://nextjs.org/docs" className="card">
+        <div className='grid'>
+          <div href='https://nextjs.org/docs' className='card'>
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
           </div>
         </div>
       </main>
 
-      <footer>
-
-      </footer>
+      <footer />
 
       <style jsx>{`
         .container {
@@ -153,7 +151,8 @@ export default function Home() {
             flex-direction: column;
           }
         }
-      `}</style>
+      `}
+      </style>
 
       <style jsx global>{`
         html,
@@ -168,7 +167,8 @@ export default function Home() {
         * {
           box-sizing: border-box;
         }
-      `}</style>
+      `}
+      </style>
     </div>
   )
 }
