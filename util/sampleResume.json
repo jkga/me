@@ -2,7 +2,7 @@
   "basics": {
     "name": "John Doe",
     "label": "Programmer",
-    "picture": "",
+    "picture": "https://react.semantic-ui.com/images/avatar/large/matthew.png",
     "email": "john@gmail.com",
     "phone": "(912) 555-4321",
     "website": "http://johndoe.com",
@@ -89,5 +89,26 @@
   "references": [{
     "name": "Jane Doe",
     "reference": "Reference..."
-  }]
+  }],
+  "projects": [
+    {
+      "name": "Project Name",
+      "description": "Description...",
+      "highlights": [ 
+        "Tracker for all user"
+      ],
+      "keywords": [
+        "PHP", "NodeJS", "Javascript"
+      ],
+      "startDate": "2011-01-01",
+      "endDate": "2013-01-01",
+      "url": "project.example.com",
+      "roles": [ 
+        "Lead Developer", "Designer"
+      ],
+      "image": "https://github.com/Semantic-Org/Semantic-UI-React/raw/master/docs/public/logo.png",
+      "entity": "Facebook, Google, Microsoft, Amazon",
+      "type": "web application"
+    }
+  ]
 }

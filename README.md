@@ -20,7 +20,7 @@ This project leverages the use of [jsonresume schema](https://jsonresume.org/sch
 Creating a resume requires you to have a **github account**. This where you store your personal information like full name, work experience, etc... For all supported fields, please check [jsonresume's](https://jsonresume.org/schema/) official website
 
 ### Quick Setup
-1. Fork :fork_and_knife:this [boiler plate](https://github.com/jkga/about.me) to your account
+1. Fork :fork_and_knife:this [boiler plate](https://github.com/potvillage/about.me) to your account
 2. Update `index.json` with your personal information
 3. Go to [https://resume-generator-ten.now.sh/[ :man:your_github_username_here]](https://resume-generator-ten.now.sh)  
 

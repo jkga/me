@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react'
+import { Loader } from 'semantic-ui-react'
 import loadTemplate from '../../lib/templates'
 import dummyProfile from '../../util/sampleResume'
 
 const Preview = (props) => {
-  const [currentTemplate, setCurrentTemplate] = useState(<div>loading</div>)
+  const [currentTemplate, setCurrentTemplate] = useState(<Loader active inline='centered' style={{ top: '40vh' }}>Loading Profile</Loader>)
   useEffect(() => {
     setCurrentTemplate(loadTemplate(props.template, { ...props, profile: JSON.parse(JSON.stringify(dummyProfile)) }))
   }, [])
