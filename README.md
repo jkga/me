@@ -3,7 +3,7 @@ resume generator for developers
 
 [![JavaScript Style Guide](https://img.shields.io/badge/Code%20Style-Standard%20-green?style=for-the-badge&logo=javascript)](https://github.com/standard/standard) 
 [![JavaScript Style Guide](https://img.shields.io/badge/jsonresume%20-yellow?style=for-the-badge&logo=json)](http://jsonresume.org) 
-[![JavaScript Style Guide](https://img.shields.io/badge/POWERED-ZEIT%20-black?style=for-the-badge&logo=zeit)](https://zeit.co/)   
+[![JavaScript Style Guide](https://img.shields.io/badge/POWERED%20BY-ZEIT%20-black?style=for-the-badge&logo=zeit)](https://zeit.co/)   
 
 This project leverages the use of [jsonresume schema](https://jsonresume.org/schema) for creating a web based resume with a ready made template. You don't even have to worry with a complex setup and deployment process.
 
@@ -21,6 +21,9 @@ This project leverages the use of [jsonresume schema](https://jsonresume.org/sch
 - Only needs very little coding experience
 - **FREE!!!!!!**
 
+## Screenshot (Default Template)
+![default template](https://user-images.githubusercontent.com/10413754/79752457-e9b31b00-8346-11ea-81df-4401a5ea3773.png)
+
 ## How to make resume
 Creating a resume requires you to have a **github account**. This where you store your personal information like full name, work experience, etc... For all supported fields, please check [jsonresume's](https://jsonresume.org/schema/) official website
 
@@ -34,7 +37,12 @@ Creating a resume requires you to have a **github account**. This where you stor
 1. Create new :unlock: public repository `about.me`
 2. Add `index.json` and paste the sample scheme from [jsonresume website](https://jsonresume.org/schema/) and update the content as necessary
 3. Commit the file
-4. Go to [https://resume-generator-ten.now.sh/[ :man:your_github_username_here]](https://resume-generator-ten.now.sh)
+4. Go to [https://resume-generator-ten.now.sh/[ :man:your_github_username_here]](https://resume-generator-ten.now.sh)   
+
+### Third pary
+you can use this tool for exporting yout linkedin profile to jsonresume format
+
+- [https://github.com/joshuatz/linkedin-to-jsonresume](https://github.com/joshuatz/linkedin-to-jsonresume)
 
 
 ### JSON Formatter/Checker
@@ -43,6 +51,38 @@ Creating a resume requires you to have a **github account**. This where you stor
 - [https://jsonlint.com](https://jsonlint.com)
 - [https://jsonformatter.org](https://jsonformatter.org)
 - [https://codebeautify.org/jsonvalidator](https://codebeautify.org/jsonvalidator)
+
+
+
+## Does it fit your needs?
+This generator just works out of the box but we understand that it is not best for all the case and to give clarifications, this is what / what is not the generator really is   
+
+:art: `NOT A SITE BUILDER`
+> This application would not allow you to drag and drop cards, layouts, and re-position coponents as you wish. It would not give you enough freedom to customize things the way typical site builder works. And in my honest opinion, developers love to create things if not from the ground, a bare minimum boilerplate is more preferable.   
+
+:city_sunrise: `THEMABLE WEB APPLICATION`
+> The project use `react` + `react-sematic-ui` for front end and could be easily extend by `creating a new theme` and placing it inside `pages/templates` directory. Dont worry, if you prefer the default theme but only need few modifications, you can freely alter the codes/design of the default template in `pages/templates/default`.
+
+> :bell: All templates should be placed inside the `pages/templates` directory.
+
+
+:rocket: `SERVERLESS`
+> Main website was deployed to [zeit](https://zeit.com) and could be easily hosted on your own `zeit` account or other prefered server within a few minutes. You can easily scale things up with no or little cost
+
+:truck: `FREE JSON RESUME SERVICE`
+> It provides a built-in parser and templates for your JSON resume file that is hosted on your `Github` account. It parse the file and serve you with a prerendered web based resume that you can freely share to anyone. What makes it more wonderful is you can use the same repository across different projects in a breeze.
+
+> Want to share it to your employer? or place a badge somewhere else? don't worry, you can create one with [shield.io](https://shield.io)
+
+
+#### SAMPLE BADGE
+[![My web-based resume](https://img.shields.io/badge/resume-yourNameHere%20-green?style=for-the-badge&logo=json)](https://resume-generator.jkga.now.sh)   
+
+
+> :bulb: So what is JSON Resume? JSON resume is an open source initiative to create a JSON-based standard for resumes. For more details, please read their [official website](https://jsonresume.org/)
+
+:green_book: `JSON RESUME BOILERPLATE`
+> This resume generator only contains few base code and could be easily modified, which reasonably makes it one of your choices for the next boilerplate of your own website or portfolio
 
 
 ## Language Support
