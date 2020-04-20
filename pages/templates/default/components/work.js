@@ -1,6 +1,6 @@
 import { Item, Icon, Label, List } from 'semantic-ui-react'
 export default (works) => {
-  const items = works.map((val, index) => {
+  const items = Array.isArray(works) && works.map((val, index) => {
     return (
       <Item key={index}>
         <Item.Content>

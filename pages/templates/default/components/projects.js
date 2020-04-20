@@ -1,6 +1,6 @@
 import { Icon, Card, Label, List, Image, Popup } from 'semantic-ui-react'
 export default (projects) => {
-  const items = projects.map((val, index) => {
+  const items = Array.isArray(projects) && projects.map((val, index) => {
     const cardItem = () => {
       return (
         <Card key={index}>
