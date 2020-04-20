@@ -13,7 +13,9 @@
     "next": "9.3.5",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "resume-schema": "^0.0.18"
+    "resume-schema": "^0.0.18",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2"
   },
   "devDependencies": {
     "standard": "^14.3.3"
