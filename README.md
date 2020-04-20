@@ -6,8 +6,7 @@ A next-gen resume service for **developers** that leverage the use of [JSON Resu
 [![JavaScript Style Guide](https://img.shields.io/badge/Code%20Style-Standard%20-green?style=for-the-badge&logo=javascript)](https://github.com/standard/standard) 
 [![JSON RESUME](https://img.shields.io/badge/format-JSON%20RESUME%20-yellow?style=for-the-badge&logo=json)](http://jsonresume.org) 
 [![ZEIT](https://img.shields.io/badge/POWERED%20BY-ZEIT%20-black?style=for-the-badge&logo=zeit)](https://zeit.co/) [![SEMANTIC UI](https://img.shields.io/badge/react-sematic%20UI-teal?style=for-the-badge&logo=react)](https://react.semantic-ui.com/) 
-[![NEXT](https://img.shields.io/badge/serverless-nextjs-black?style=for-the-badge&logo=next.js)](https://nextjs.org)  
-[![GITHUB](https://img.shields.io/badge/repo-github-black?style=for-the-badge&logo=github)](https://github.com)     
+[![NEXT](https://img.shields.io/badge/serverless-nextjs-black?style=for-the-badge&logo=next.js)](https://nextjs.org) [![GITHUB](https://img.shields.io/badge/repo-github-black?style=for-the-badge&logo=github)](https://github.com)     
 
 
 
