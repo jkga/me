@@ -7,6 +7,11 @@ resume generator for developers
 
 This project leverages the use of [jsonresume schema](https://jsonresume.org/schema) for creating a web based resume with a ready made template. You don't even have to worry with a complex setup and deployment process.
 
+## :loudspeaker: NOTICE TO PUBLIC
+> This application does not collect or store your personal information in any hosted server. The services we offered `does not require` any elevated acess or attempt to upload, commit, modify, or delete any file or repository on your behalf. It only **read** the files stored in your :unlock: `about.me` repository as necessary   
+
+> :lock: All the information you included in your `JSON` files are public and **MUST NOT CONTAIN** any information that you do not want to share to everyone. Thus, you are fully accountable on what you share on your public repositories and we should not be held responsible or liable for your negligence.
+
 ## Why resume-generator?
 - Easy to use
 - No complex setup
@@ -34,7 +39,7 @@ Creating a resume requires you to have a **github account**. This where you stor
 
 ### JSON Formatter/Checker
 :bulb: Before commiting the file please make sure to have a valid `JSON` file to avoid a `profile_not_found error`. You can use the online tools below for checking 
-
+- [https://www.jsonschemavalidator.net/](https://www.jsonschemavalidator.net/) - for validating schema
 - [https://jsonlint.com](https://jsonlint.com)
 - [https://jsonformatter.org](https://jsonformatter.org)
 - [https://codebeautify.org/jsonvalidator](https://codebeautify.org/jsonvalidator)
@@ -65,6 +70,6 @@ There is no other available template other than the default one but the develope
 - [Default Template Preview](https://resume-generator-ten.now.sh/preview/templates/default) 
 
 ## Donations
-This project is free to use and we are not getting commission or generating an income from this in any way. If you love this project your donation is very much welcome. You can buy some drinks :beer: :coffee: for the developer!   
+This project is free to use and we are not getting commission or generating an income from this in any way. If you love this project your donation is very much welcome. You can buy some :beer: :coffee: for the developer!   
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F2F71KUIX)

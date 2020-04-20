@@ -69,7 +69,7 @@ const Template = (props) => {
             </Header>
             {props.profile.skills.map((val, index) => {
               return (
-                <Label key={index} color='black'>
+                <Label key={index} color='black' style={{ marginBottom: 5 }}>
                   {val.name}
                   <Label.Detail>
                     {val.keywords.map((keyword, indexKeyword) => {

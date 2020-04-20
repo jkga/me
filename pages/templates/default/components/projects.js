@@ -16,7 +16,7 @@ export default (projects) => {
             </Card.Description>
           </Card.Content>
           <Card.Content extra>
-            <Icon name='building' /> {val.keywords.map((keyword, i) => <Label key={i}>{keyword}</Label>)}
+            <Icon name='key' /> {val.keywords.map((keyword, i) => <Label key={i} style={{ marginBottom: 5 }}>{keyword}</Label>)}
           </Card.Content>
         </Card>)
     }
