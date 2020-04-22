@@ -10,17 +10,23 @@ export default function Home () {
 
       <main>
         <h1 className='title'>
-          Welcome to <a href='https://nextjs.org'>me.com!</a>
+          <a href='https://github.com/jkga/resume-generator'>#me</a>
         </h1>
 
         <p className='description'>
-          Online resume generator for developers
+          Next-Gen online portfolio for developers
+
         </p>
 
         <div className='grid'>
-          <div href='https://nextjs.org/docs' className='card'>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <div className='card'>
+            <h3>Quick Guide</h3>
+            <p>Easiest way to make your online portfolio</p>
+            <ol>
+              <li>Fork <a href='https://github.com/potvillage/about.me'>this repository</a></li>
+              <li>Go to <a href='https://resume-generator-git-master.jkga.now.sh'>me</a> website and append <code>/your-github-username</code></li>
+              <li>Please check the <a href='https://github.com/jkga/resume-generator'>docs</a> for more details</li>
+            </ol>
           </div>
         </div>
       </main>
@@ -46,33 +52,13 @@ export default function Home () {
           align-items: center;
         }
 
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer img {
-          margin-left: 0.5rem;
-        }
-
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        a {
-          color: inherit;
-          text-decoration: none;
-        }
-
         .title a {
-          color: #0070f3;
+          color: #009688;
           text-decoration: none;
+          padding: 15px;
+          border: 6px solid #009688;
+          border-radius: 3px;
+          animation: border 2s linear infinite alternate; 
         }
 
         .title a:hover,
@@ -95,12 +81,14 @@ export default function Home () {
         .description {
           line-height: 1.5;
           font-size: 1.5rem;
+          margin-top: 2em;
         }
 
         code {
-          background: #fafafa;
+          background: #ccc;
+          color: #000;
           border-radius: 5px;
-          padding: 0.75rem;
+          padding: 0.4rem;
           font-size: 1.1rem;
           font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
             DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
@@ -111,27 +99,16 @@ export default function Home () {
           align-items: center;
           justify-content: center;
           flex-wrap: wrap;
-          max-width: 800px;
           margin-top: 3rem;
         }
 
         .card {
-          margin: 1rem;
-          flex-basis: 90%;
+          flex-basis: 100%;
           padding: 1.5rem;
           text-align: left;
           color: inherit;
           text-decoration: none;
-          border: 1px solid #eaeaea;
-          border-radius: 10px;
           transition: color 0.15s ease, border-color 0.15s ease;
-        }
-
-        .card:hover,
-        .card:focus,
-        .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
         }
 
         .card h3 {
@@ -145,12 +122,14 @@ export default function Home () {
           line-height: 1.5;
         }
 
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
-            flex-direction: column;
-          }
+        @keyframes border {
+          0%   {border-top: 6px solid #000;}
+          25%  {border-left: 6px solid #000;}
+          50%  {border-right: 6px solid #000;}
+          750% {border-bottom: 6px solid #000;}
+          100% {border-top: 6px solid #009688;}
         }
+
       `}
       </style>
 
@@ -162,10 +141,21 @@ export default function Home () {
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;
+          background: #000;
+          color: #fff;
         }
 
         * {
           box-sizing: border-box;
+        }
+
+        a {
+          color: #009688;
+          text-decoration: underline;
+        }
+
+        ol > li {
+          margin-bottom: 10px;
         }
       `}
       </style>

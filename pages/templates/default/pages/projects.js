@@ -5,7 +5,7 @@ import ProjectComponent from '../components/projects'
 const Template = (props) => {
   return (
     <Responsive>
-      <Card.Group itemsPerRow={3}>
+      <Card.Group itemsPerRow={3} centered doubling>
         {ProjectComponent(props.profile.projects)}
       </Card.Group>
     </Responsive>)

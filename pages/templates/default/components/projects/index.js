@@ -1,9 +1,10 @@
 import { Icon, Card, Label, List, Image, Popup } from 'semantic-ui-react'
+import styles from './style.module.css'
 export default (projects) => {
   const items = Array.isArray(projects) && projects.map((val, index) => {
     const cardItem = () => {
       return (
-        <Card key={index}>
+        <Card key={index} fluid className={styles.projectCards}>
           <Image src={val.image} wrapped ui={false} />
           <Card.Content>
             <Card.Header>{val.name}</Card.Header>
