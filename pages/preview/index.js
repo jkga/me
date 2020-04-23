@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Loader } from 'semantic-ui-react'
-import loadTemplate from '../../config/templates'
+import loadTemplate from '../../lib/templates'
 import dummyProfile from '../../util/sampleResume'
 
 const defaultThemeName = process.env.DEFAULT_TEMPLATE_PATH + '/' + process.env.DEFAULT_TEMPLATE
