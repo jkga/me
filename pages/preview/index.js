@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react'
 import { Loader } from 'semantic-ui-react'
-import loadTemplate from '../../lib/templates'
+import loadTemplate from '../../config/templates'
 import dummyProfile from '../../util/sampleResume'
+
+const defaultThemeName = process.env.DEFAULT_TEMPLATE_PATH + '/' + process.env.DEFAULT_TEMPLATE
 
 const Preview = (props) => {
   const [currentTemplate, setCurrentTemplate] = useState(<Loader active inline='centered' style={{ top: '40vh' }}>Loading Profile</Loader>)
@@ -12,7 +14,7 @@ const Preview = (props) => {
 }
 
 Preview.getInitialProps = async function (http) {
-  const template = http.query.template && http.query.template !== 'webpack-hmr' ? '/templates/' + http.query.template : '/templates/default'
+  const template = http.query.template && http.query.template !== 'webpack-hmr' ? process.env.DEFAULT_TEMPLATE_PATH + '/' + http.query.template : defaultThemeName
   return { template }
 }
 

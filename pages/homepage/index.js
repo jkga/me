@@ -4,7 +4,7 @@ export default function Home () {
   return (
     <div className='container'>
       <Head>
-        <title>Resume Generator Service</title>
+        <title>Its not you, its me!</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
 

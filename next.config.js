@@ -1,4 +1,3 @@
-// next.config.js
 module.exports = {
   experimental: {
     serverless: true,
@@ -6,9 +5,14 @@ module.exports = {
       return [
         { source: '/:username/:template?', destination: '/user' },
         { source: '/preview/templates/:template', destination: '/preview' },
-        { source: '/', destination: '/homepage' }
+        { source: '/', destination: '/' }
       ]
     },
     catchAllRouting: true
+  },
+  env: {
+    DEFAULT_TEMPLATE_PATH: '/templates',
+    DEFAULT_TEMPLATE: 'default',
+    DEFAULT_PAGE: '/homepage'
   }
 }
