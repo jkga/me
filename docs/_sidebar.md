@@ -1,0 +1,18 @@
+* [**Getting Started**](/)
+  * [Installation](installation/)
+  * [Development Server](installation/#development-server)
+  * [Static Build](installation/#building-static-files)
+  * [Deployment](installation/#deployment)
+    * [Environment Variables](installation/#environment-variables)
+* **Template**
+  * [Configuration](template/)
+  * [Modifying Existing Template](template/#modifying-existing-templates)
+  * [Creating Template](template/#creating-template)
+    * [Preview](template/#preview)
+    * [Guidelines](template/#guidelines)
+  * [Installing Template](template/#installing-templates)
+  * [Loading Default Github User](template/#default-github-username)
+
+* [**Resume**](resume/)
+    * [Quick Guide](resume/#quick-setup)
+    * [Manual](resume/#manual-setup)
