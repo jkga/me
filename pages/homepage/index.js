@@ -23,9 +23,9 @@ export default function Home () {
             <h3>Quick Guide</h3>
             <p>Easiest way to make your online portfolio</p>
             <ol>
-              <li>Fork <a href='https://github.com/potvillage/about.me'>this repository</a></li>
-              <li>Go to <a href='https://resume-generator-git-master.jkga.now.sh'>me</a> website and append <code>/your-github-username</code></li>
-              <li>Please check the <a href='https://github.com/jkga/resume-generator'>docs</a> for more details</li>
+              <li>Fork this <a href="https://github.com/jkga/json-resume-template">boiler plate</a> to your account or create your own repository using it as a template.</li>
+              <li>Go to <a href='https://me-web.now.sh'>me</a> website and append <code>/your-github-username</code></li>
+              <li>Please check the <a href='https://me-docs.now.sh/#/'>docs</a> for more details</li>
             </ol>
           </div>
         </div>
