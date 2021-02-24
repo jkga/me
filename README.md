@@ -36,15 +36,16 @@ Creating your first resume requires you to have a **github account**. This is wh
 ### Quick Setup
 
 1. Fork :fork_and_knife:this [boiler plate](https://github.com/jkga/json-resume-template) to your account or create your own repository using it as a template.
+> Make sure that your repository name is set to `about.me`. Otherwise, you will receive a `profile not found` message
 2. Update `index.json` with your personal information
-3. Go to [https://me-web.now.sh/[ :man:your_github_username_here]](https://resume-generator-ten.now.sh) to view your ready made portfolio  
+3. Go to [https://me-web.now.sh/[ :man:your_github_username_here]](https://me-web.now.sh) to view your ready made portfolio  
 
 ### Manual Setup
 
 1. Create new :unlock: public repository `about.me`
 2. Add `index.json` and paste the sample scheme from [jsonresume website](https://jsonresume.org/schema/) and update the content as necessary
 3. Commit the file
-4. Go to [https://me-web.now.sh/[ :man:your_github_username_here]](https://resume-generator-ten.now.sh)
+4. Go to [https://me-web.now.sh/[ :man:your_github_username_here]](https://me-web.now.sh)
 
 ### JSON Formatter/Checker
 
