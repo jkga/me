@@ -11,8 +11,16 @@ export default async (req, res) => {
     lang: req.query.lang ? req.query.lang.toString() : null
   }
 
-  const profile = await content.getContentFromGithub(req.query.username, options).catch(e => {})
-  if (!profile) return notFound(res, JSON.stringify({ error: 'profile not found' }))
+  let profile = await content.getContentFromGithub(req.query.username, options).catch(e => {})
+  if (!profile) {
+    // read from forked template
+    // some users forked the template but forgt to rename the repository to about.me
+    profile = await content.getContentFromGithubForkedJsonResume(req.query.username, options).catch(e => {})
+  }
+
+  // load default error page
+  if(!profile) return notFound(res, JSON.stringify({ error: 'profile not found' }))
+  
   // prevent undefined schemas
   profile.basics.location = profile.basics.location || {}
   profile.basics.profiles = profile.basics.profiles || []
